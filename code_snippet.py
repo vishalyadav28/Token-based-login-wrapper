@@ -76,7 +76,7 @@ class MyViewSet(viewsets.ViewSet):
         # Your destroy view function logic hereUsing the login_required_viewset decorator on each view function within your viewsets.
 # ViewSet ensures that the user must be authenticated to access those endpoints. 
 # If the user is not authenticated, 
-Using the login_required_viewset decorator on each view function within your viewsets.
+# Using the login_required_viewset decorator on each view function within your viewsets.
 # ViewSet ensures that the user must be authenticated to access those endpoints. 
 # If the user is not authenticated, 
 # an HTTP 405 Method Not Allowed response will be returned,
